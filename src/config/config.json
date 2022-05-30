@@ -1,0 +1,16 @@
+{
+  "title": "GIC Brasil",
+  "subtitle": "",
+  "description": "Webapp GIC Brasil",
+  "url": "",
+  "img": "",
+  "img_size": {
+    "width": "1200",
+    "height": "630"
+  },
+  "locale": "pt_BR",
+  "twitter": "",
+  "twitter_card": "summary_large_image",
+  "theme_color": "#5f25a8",
+  "theme_color_secondary": "#ff9240"
+}

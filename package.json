@@ -1,0 +1,57 @@
+{
+  "name": "gic-brasil",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 3333 --host --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "test": "vitest",
+    "test:e2e": "cypress open",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@vueuse/core": "^7.7.0",
+    "@vueuse/head": "^0.7.5",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "maska": "^1.5.0",
+    "pinia": "^2.0.11",
+    "pinia-plugin-persistedstate": "^1.5.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13",
+    "vue3-lazyload": "^0.2.5-beta"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.1.8",
+    "@pinia/testing": "0.0.10",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "@vue/test-utils": "^2.0.0-rc.17",
+    "cypress": "^9.5.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "husky": "^7.0.4",
+    "jsdom": "^19.0.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.9",
+    "unplugin-auto-import": "^0.6.1",
+    "unplugin-icons": "^0.13.2",
+    "unplugin-vue-components": "^0.17.21",
+    "vite": "^2.8.0",
+    "vite-imagetools": "^4.0.3",
+    "vite-plugin-pages": "^0.21.0",
+    "vite-plugin-pwa": "^0.11.13",
+    "vite-plugin-vue-layouts": "^0.6.0",
+    "vite-plugin-windicss": "^1.8.1",
+    "vitest": "^0.7.11",
+    "windicss": "^3.5.0"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --fix"
+  }
+}
