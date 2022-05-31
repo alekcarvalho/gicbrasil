@@ -70,20 +70,6 @@ Rode o comando a baixo e visite http://localhost:3333
 npm run dev
 ```
 
-### Testes
-
-Testes unitários:
-
-```bash
-npm run test ou npm run test:unit
-```
-
-Testes E2E:
-
-```bash
-npm run test:e2e
-```
-
 ### Build
 
 Para buildar a aplicação:
